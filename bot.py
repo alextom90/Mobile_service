@@ -7,7 +7,8 @@ from aiogram.dispatcher import FSMContext
 from aiogram.dispatcher.filters.state import State, StatesGroup
 import os
 
-API_TOKEN = "7765881253:AAGeSg759wEnbkrqIINg3gK6xfyCeco3SPw"
+API_TOKEN = os.getenv("7765881253:AAGeSg759wEnbkrqIINg3gK6xfyCeco3SPw")
+
 
 logging.basicConfig(level=logging.INFO)
 
